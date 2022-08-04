@@ -1,0 +1,13 @@
+void orxFASTCALL Update(const orxCLOCK_INFO *_pstInfo, void *_pContext);
+orxSTATUS orxFASTCALL Bootstrap();
+orxSTATUS orxFASTCALL Init();
+orxSTATUS orxFASTCALL Run();
+void orxFASTCALL Exit();
+orxSTATUS orxFASTCALL PhysicsEventHandler(const orxEVENT *_pstEvent);
+orxSTATUS orxFASTCALL FXEventHandler(const orxEVENT *_pstEvent);
+orxSTATUS orxFASTCALL CameraFollowCharacters(orxOBJECT *camHandle);
+orxSTATUS orxFASTCALL setGameState(const orxSTRING gameState);
+const orxSTRING orxFASTCALL getGameState();
+orxSTATUS orxFASTCALL setGamePaused(orxBOOL gamePaused);
+orxBOOL orxFASTCALL getGamePaused();
+orxSTATUS orxFASTCALL initScreenControls(const orxSTRING input, const orxFLOAT fDT);
